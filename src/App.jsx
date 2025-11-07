@@ -14,8 +14,8 @@ function App() {
         <section id="impact" className="py-20">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="relative overflow-hidden rounded-3xl border border-emerald-100 bg-white p-8 shadow-sm">
-              <div className="absolute right-0 top-0 -z-0 h-40 w-40 rounded-full bg-emerald-100 blur-3xl opacity-40" />
-              <div className="grid gap-8 lg:grid-cols-3">
+              <div className="absolute right-0 top-0 z-0 h-40 w-40 rounded-full bg-emerald-100 blur-3xl opacity-40" />
+              <div className="relative grid gap-8 lg:grid-cols-3">
                 <div>
                   <h2 className="text-3xl font-bold">Impact you can measure</h2>
                   <p className="mt-2 text-gray-600">Track meals saved, weight rescued, and average pickup times across your network.</p>
